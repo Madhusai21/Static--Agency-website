@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right ,#a517ba,#5f1782 );
+    padding: 0 !important;
+
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px ;
+
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.navbar-toggler-icon{
+   padding: 10px;
+   width: 25px;
+   height: 20px;
+}
+#banner{
+    background-image: linear-gradient(to right ,#a517ba,#5f1782 );
+    color: aliceblue;
+    padding-top: 5%;
+    position: relative;
+}
+.promo-title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+.content{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 0;
+}
+.play-btn{
+    width:60px;
+    height: 60px;
+    padding: 5px;
+    margin: 3px;
+}
+#banner a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 500;
+}
+.bottom-img{
+    width: 100%;
+}
+#services{
+    padding: 80px 0;
+    margin-left: 100px;
+}
+.service-img{
+    width: 100px;
+}
+.services{
+    padding: 40px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.title:hover{
+    color: #a517ba;
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 10px 25px;
+    border:none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right ,#a517ba,#5f1782 );
+
+}
+#ABOUT{
+    background: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-title {
+    font-size: 30px;
+    margin-top: 8%;
+}
+#ABOUT img{
+}
+#testimonial{
+    margin: 100px 0;
+}
+.testimonial{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial img{
+    height: 60px;
+    border-radius: 50%;
+    width: 60px;
+    margin: 0 10px;
+
+}
+.user-details{
+    display: inline-block;
+    font-size: 20px;
+
+}
+#social-media {
+    width: 100%;
+
+
+
+}
+.social-icons img {
+    width: 70px;
+    transition: 0.5s;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+.titles{
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.titles:hover{
+    color:#a517ba;
+}
+.img-fluid{
+    height: 60px;
+    padding-left: 20px ;
+    margin-top: 20px;
+
+}
+.img-fluid-1{
+    height: 50px
+    padding-left: 20px ;
+    margin-top: 20px;
+    width: 100%;
+}
+.footer-p{
+    width:100%;
+    padding-left: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.footer-p:hover{
+    color: white;
+}
+.footer-form{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    display: block;
+}
+.footer{
+    background: #a517ba;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 0;
+
+}
+.contact-form{
+    width: 100%;
+    box-shadow: 5px 5px 5px  black;
+}
+.contact-form legend{
+    color:black;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    text-shadow: 23px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    text-shadow: 2px 2px  white;
+}
+.contact-form label{
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 2px white;
+
+}
+.contact-form input{
+    padding: 5px;
+    margin: 9px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 10px;
+}
+.contact-form button{
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    color: white;
+    font-weight: 900;
+    background-color:black;
+    text-transform: uppercase;
+}
+.contact-form button :hover{
+    background-color: #f8f9fa;  
+}
+.copy{
+    color: black;
+    box-shadow: 2px 2px;
+    margin: 20px;
+}
+.copy p {
+ color: #f8f9fa;
+ font-size: 15px;
+ text-decoration: none;
+ text-transform: capitalize;
+}
+#hr{
+    background-color: #f8f9fa;
+}
+
+
+
